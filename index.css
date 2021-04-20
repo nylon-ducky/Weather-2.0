@@ -4,7 +4,8 @@ body {
 }
 
 .scene {
-    margin: 100px auto auto;
+    margin: auto;
+    margin-top: 100px;
     width: 250px;
     height: 200px;
     position: relative;
@@ -31,6 +32,7 @@ body {
     opacity: 0.9;
     border-radius: 15px;
     background: #918d8d;
+    margin: auto;
 }
 
 img {
@@ -44,25 +46,40 @@ img {
 }
 
 #day1 {
-    transform: rotateY(60deg) translateZ(250px);
+    transform: rotateY(50deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px rgb(255, 115, 0);
 }
+
 #day2 {
-    transform: rotateY(120deg) translateZ(250px);
+    transform: rotateY(100deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px yellow;
 }
+
 #day3 {
-    transform: rotateY(180deg) translateZ(250px);
+    transform: rotateY(150deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px green;
 }
+
 #day4 {
-    transform: rotateY(240deg) translateZ(250px);
+    transform: rotateY(200deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px blue;
 }
+
 #day5 {
-    transform: rotateY(300deg) translateZ(250px);
+    transform: rotateY(250deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px indigo;
 }
+
+#day6 {
+    transform: rotateY(300deg) translateZ(250px);
+    box-shadow: 2px 2px 20px 10px violet;
+}
+
+
+
+
+
+
 
 #button {
     color: #444;

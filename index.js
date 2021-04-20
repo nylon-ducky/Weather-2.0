@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 let day6 = document.querySelector("#day6");
                 let day7 = document.querySelector("#day7");
 
-                let days = [day0, day1, day2, day3, day4, day5];
+                let days = [day0, day1, day2, day3, day4, day5, day6];
                 let x;
                 for (x in days) {
 
