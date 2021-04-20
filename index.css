@@ -1,0 +1,81 @@
+
+body {
+    background-color: lavender;
+}
+
+.scene {
+    margin: 100px auto auto;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    perspective: 1000px;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.each {
+    display: block;
+    position: absolute;
+    background: #000;
+    width: 200px;
+    height: 200px;
+    font-size: large;
+    text-align: center;
+    color: #FFF;
+    opacity: 0.9;
+    border-radius: 15px;
+    background: #918d8d;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+#day0 {
+    transform: rotateY(0deg) translateZ(250px);
+    box-shadow: 2px 2px 20px 10px rgb(255, 0, 64);
+}
+
+#day1 {
+    transform: rotateY(60deg) translateZ(250px);
+    box-shadow: 2px 2px 20px 10px rgb(255, 115, 0);
+}
+#day2 {
+    transform: rotateY(120deg) translateZ(250px);
+    box-shadow: 2px 2px 20px 10px yellow;
+}
+#day3 {
+    transform: rotateY(180deg) translateZ(250px);
+    box-shadow: 2px 2px 20px 10px green;
+}
+#day4 {
+    transform: rotateY(240deg) translateZ(250px);
+    box-shadow: 2px 2px 20px 10px blue;
+}
+#day5 {
+    transform: rotateY(300deg) translateZ(250px);
+    box-shadow: 2px 2px 20px 10px indigo;
+}
+
+#button {
+    color: #444;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 400px;
+    justify-content: center;
+    padding: 1em 2em;
+    cursor: pointer;
+    background: #CCC;
+    border-radius: 10px;
+    border-top: 1px solid #FFF;
+    box-shadow: 0 5px 0 #999;
+    transition: box-shadow 0.1s, top 0.1s;
+}
