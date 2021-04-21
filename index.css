@@ -84,15 +84,13 @@ img {
 #button {
     color: #444;
     position: absolute;
-    display: flex;
     margin: auto;
     top: 400px;
-    justify-content: center;
     padding: 1em 2em;
     cursor: pointer;
     background: #CCC;
     border-radius: 10px;
-    border-top: 1px solid #FFF;
+    border: 1px solid #FFF;
     box-shadow: 0 5px 0 #999;
     transition: box-shadow 0.1s, top 0.1s;
 }
