@@ -79,6 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let degree = 0;
 function rotate() {
-    degree = degree - 60;
-    document.querySelector(".card").style.transform = "rotateY(" + degree + "deg)";
+    degree = degree - 51.42857142857143;
+    document.querySelector(".card").style.transform = "rotateX(" + degree + "deg)";
 }

@@ -5,7 +5,7 @@ body {
 
 .scene {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 300px;
     width: 250px;
     height: 200px;
     position: relative;
@@ -41,43 +41,43 @@ img {
 }
 
 #day0 {
-    transform: rotateY(0deg) translateZ(250px);
+    transform: rotateX(0deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px rgb(255, 0, 64);
      
 }
 
 #day1 {
-    transform: rotateY(51.428deg) translateZ(250px);
+    transform: rotateX(51.428deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px rgb(255, 115, 0);
      
 }
 
 #day2 {
-    transform: rotateY(102.857deg) translateZ(250px);
+    transform: rotateX(102.857deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px yellow;
      
 }
 
 #day3 {
-    transform: rotateY(154.285deg) translateZ(250px);
+    transform: rotateX(154.285deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px green;
      
 }
 
 #day4 {
-    transform: rotateY(205.714deg) translateZ(250px);
+    transform: rotateX(205.714deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px blue;
      
 }
 
 #day5 {
-    transform: rotateY(257.142deg) translateZ(250px);
+    transform: rotateX(257.142deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px indigo;
      
 }
 
 #day6 {
-    transform: rotateY(308.571deg) translateZ(250px);
+    transform: rotateX(308.571deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px violet;
      
 }
