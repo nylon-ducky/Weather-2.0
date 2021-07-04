@@ -43,36 +43,43 @@ img {
 #day0 {
     transform: rotateY(0deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px rgb(255, 0, 64);
+     
 }
 
 #day1 {
-    transform: rotateY(50deg) translateZ(250px);
+    transform: rotateY(51.428deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px rgb(255, 115, 0);
+     
 }
 
 #day2 {
-    transform: rotateY(100deg) translateZ(250px);
+    transform: rotateY(102.857deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px yellow;
+     
 }
 
 #day3 {
-    transform: rotateY(150deg) translateZ(250px);
+    transform: rotateY(154.285deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px green;
+     
 }
 
 #day4 {
-    transform: rotateY(200deg) translateZ(250px);
+    transform: rotateY(205.714deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px blue;
+     
 }
 
 #day5 {
-    transform: rotateY(250deg) translateZ(250px);
+    transform: rotateY(257.142deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px indigo;
+     
 }
 
 #day6 {
-    transform: rotateY(300deg) translateZ(250px);
+    transform: rotateY(308.571deg) translateZ(250px);
     box-shadow: 2px 2px 20px 10px violet;
+     
 }
 
 
